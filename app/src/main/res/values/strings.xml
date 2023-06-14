@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">medicine</string>
+    <string name="my_medicine">MY MEDICINE BOX</string>
+    <string name="my_medicine_box">My Medicine Box</string>
+    <string name="manajemen_o">Manajemen Obat</string>
+    <string name="pengingat">Reminder</string>
+    <string name="manajemen">Manajemen</string>
+    <string name="reminder">Reminder</string>
+    <string name="pick_date">Pilih Tanggal</string>
+    <string name="pick_time">Pilih Waktu</string> />
+    />
+</resources>

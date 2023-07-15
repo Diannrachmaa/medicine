@@ -6,7 +6,5 @@
     <string name="pengingat">Reminder</string>
     <string name="manajemen">Manajemen</string>
     <string name="reminder">Reminder</string>
-    <string name="pick_date">Pilih Tanggal</string>
-    <string name="pick_time">Pilih Waktu</string> />
-    />
+    <string name="title_activity_maps">MapsActivity</string>
 </resources>

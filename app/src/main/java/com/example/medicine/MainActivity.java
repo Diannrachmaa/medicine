@@ -23,8 +23,5 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(MainActivity.this,Reminder.class);
         startActivity(intent);
     }
-    public void notif (View view) {
-        Intent intent = new Intent(MainActivity.this,Notifikasi.class);
-        startActivity(intent);
-    }
+
 }

@@ -55,28 +55,23 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="8dp"
-        android:text="Tanggal"
+        android:text="Tanggal dan Waktu"
         android:textStyle="bold" />
 
-    <Button
+    <EditText
+        android:id="@+id/datetime"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/pick_date"
-        android:onClick="showDatePickerDialog" />
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="10dp"
-        android:layout_marginTop="8dp"
-        android:text="Waktu"
-        android:textStyle="bold" />
-
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/pick_time"
-        android:onClick="showTimePickerDialog" />
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:layout_marginBottom="16dp"
+        android:hint="Enter Tanggal dan Waktu" />
+<!--    <Button-->
+<!--        android:id="@+id/dateTimeButton"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginBottom="16dp"-->
+<!--        android:text="Select Tanggal and Waktu" />-->
 
     <Button
         android:layout_width="match_parent"
@@ -87,10 +82,6 @@
         android:background="@drawable/color_btn"
         android:textColor="@android:color/background_light"
         android:layout_alignParentBottom="true"
-        android:layout_marginBottom="8dp"
-        android:layout_marginTop="30dp"
-        android:text="SAVE"
-        />
-
+        android:text="SAVE" />
 
 </LinearLayout>

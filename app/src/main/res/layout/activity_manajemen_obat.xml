@@ -20,15 +20,13 @@
         android:textAppearance="@style/text"
         android:textStyle="bold" />
 
-    <ImageView
-        android:id="@+id/kosong"
-        android:layout_width="250dp"
-        android:layout_height="250dp"
-        android:layout_centerHorizontal="true"
-        android:layout_centerVertical="true"
-        android:backgroundTint="#FFFFFF"
-        android:scaleType="centerCrop"
-        android:src="@drawable/kosong" />
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id= "@+id/rv_obat"
+        tools:listitem="@layout/format_tampilan_dataobat"
+        android:layout_below="@id/manajemen_o"
+        android:layout_marginTop="10dp"/>
 
     <ImageView
         android:id="@+id/plus"

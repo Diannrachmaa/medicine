@@ -23,5 +23,8 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(MainActivity.this,Reminder.class);
         startActivity(intent);
     }
-
+    public void panic (View view) {
+        Intent intent = new Intent(MainActivity.this,MapsActivity.class);
+        startActivity(intent);
+    }
 }

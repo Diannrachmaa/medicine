@@ -36,6 +36,15 @@
         android:layout_height="wrap_content"
         android:text="Longitude"/>
 
+    <TextView
+        android:id="@+id/alamatmap"
+        android:padding="15dp"
+        android:layout_below="@+id/longitudemap"
+        android:textColor="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Longitude"/>
+
 
 
 

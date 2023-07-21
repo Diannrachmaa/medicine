@@ -6,15 +6,24 @@ public class ModelReminder {
 
     int nomor;
     String nama;
-//    String datetime;
-//
-//    public String getDatetime() {
-//        return datetime;
-//    }
-//
-//    public void setDatetime(String datetime) {
-//        this.datetime = datetime;
-//    }
+    String datetime;
+    String key;
+
+    public String getKey() {
+        return key;
+    }
+
+    public void setKey(String key) {
+        this.key = key;
+    }
+
+    public String getDatetime() {
+        return datetime;
+    }
+
+    public void setDatetime(String datetime) {
+        this.datetime = datetime;
+    }
 
     public int getNomor() {
         return nomor;

@@ -3,7 +3,8 @@
     xmlns:tools="http://schemas.android.com/tools">
 
     <uses-permission android:name="android.permission.INTERNET" />
-    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"
+    <uses-permission
+        android:name="android.permission.ACCESS_FINE_LOCATION"
         tools:ignore="CoarseFineLocation" />
 
     <application
@@ -16,7 +17,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Medicine"
         tools:targetApi="31">
-
+        <activity
+            android:name=".UpdateDataReminder"
+            android:exported="false" />
         <!--
              TODO: Before you run your application, you need a Google Maps API key.
 
@@ -30,7 +33,7 @@
         -->
         <meta-data
             android:name="com.google.android.geo.API_KEY"
-            android:value="YOUR_API_KEY" />
+            android:value="AIzaSyA2slwpM-OvfmEsXsOsoneTVXk7F4rypMY" />
 
         <activity
             android:name=".MapsActivity"
@@ -45,10 +48,6 @@
             android:theme="@style/Theme.Medicine.NoActionBarAndStatusBar" />
         <activity
             android:name=".InputObat"
-            android:exported="false"
-            android:theme="@style/Theme.Medicine.NoActionBarAndStatusBar" />
-        <activity
-            android:name=".Notifikasi"
             android:exported="false"
             android:theme="@style/Theme.Medicine.NoActionBarAndStatusBar" />
         <activity

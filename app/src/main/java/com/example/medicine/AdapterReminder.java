@@ -42,9 +42,9 @@ public class AdapterReminder extends RecyclerView.Adapter<AdapterReminder.myView
 
     @Override
     public void onBindViewHolder(@NonNull myViewHolder holder, int position) {
-        holder.nomor.setText(String.valueOf(modelReminderArrayList.get(position).getNomor()));
-        holder.nama.setText(modelReminderArrayList.get(position).getNama());
-        holder.datetime.setText(modelReminderArrayList.get(position).getDatetime());
+        holder.nomor.setText("Nomor Kotak Obat: "+String.valueOf(modelReminderArrayList.get(position).getNomor()));
+        holder.nama.setText("Nama Obat: "+modelReminderArrayList.get(position).getNama());
+        holder.datetime.setText("Waktu Reminder: "+modelReminderArrayList.get(position).getDatetime());
         holder.cardreminder.setOnLongClickListener(new View.OnLongClickListener() {
             @Override
             public boolean onLongClick(View v) {

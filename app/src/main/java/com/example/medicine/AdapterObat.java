@@ -41,10 +41,10 @@ public class AdapterObat extends RecyclerView.Adapter<AdapterObat.myViewHolder> 
 
     @Override
     public void onBindViewHolder(@NonNull myViewHolder holder, int position) {
-        holder.nomor.setText(String.valueOf(modelObatArrayList.get(position).getNomor()));
-        holder.nama.setText(modelObatArrayList.get(position).getNama());
-        holder.jenis.setText(modelObatArrayList.get(position).getJenis());
-        holder.stok.setText(String.valueOf(modelObatArrayList.get(position).getStok()));
+        holder.nomor.setText("Nomor Kotak Obat: "+String.valueOf(modelObatArrayList.get(position).getNomor()));
+        holder.nama.setText("Nama Obat: "+modelObatArrayList.get(position).getNama());
+        holder.jenis.setText("Jenis Obat: "+modelObatArrayList.get(position).getJenis());
+        holder.stok.setText("Stok Obat: "+String.valueOf(modelObatArrayList.get(position).getStok()));
         holder.cardobat.setOnLongClickListener(new View.OnLongClickListener() {
             @Override
             public boolean onLongClick(View v) {
